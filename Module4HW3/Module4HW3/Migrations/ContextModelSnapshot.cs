@@ -244,7 +244,7 @@ namespace Module4HW3.Migrations
                             Budjet = 100000f,
                             ClientId = 1,
                             Name = "MedicalSystem",
-                            StartedDate = new DateTime(2023, 1, 9, 21, 55, 17, 576, DateTimeKind.Local).AddTicks(5095)
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6232)
                         },
                         new
                         {
@@ -252,7 +252,7 @@ namespace Module4HW3.Migrations
                             Budjet = 500000f,
                             ClientId = 2,
                             Name = "CosmeticsShop",
-                            StartedDate = new DateTime(2023, 1, 9, 21, 55, 17, 576, DateTimeKind.Local).AddTicks(5124)
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6260)
                         },
                         new
                         {
@@ -260,7 +260,7 @@ namespace Module4HW3.Migrations
                             Budjet = 1000000f,
                             ClientId = 2,
                             Name = "HomeShop",
-                            StartedDate = new DateTime(2023, 1, 9, 21, 55, 17, 576, DateTimeKind.Local).AddTicks(5127)
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6263)
                         },
                         new
                         {
@@ -268,7 +268,7 @@ namespace Module4HW3.Migrations
                             Budjet = 200000f,
                             ClientId = 3,
                             Name = "SchoolDiary",
-                            StartedDate = new DateTime(2023, 1, 9, 21, 55, 17, 576, DateTimeKind.Local).AddTicks(5129)
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6265)
                         },
                         new
                         {
@@ -276,7 +276,7 @@ namespace Module4HW3.Migrations
                             Budjet = 6000000f,
                             ClientId = 4,
                             Name = "HealthMentainer",
-                            StartedDate = new DateTime(2023, 1, 9, 21, 55, 17, 576, DateTimeKind.Local).AddTicks(5132)
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6267)
                         },
                         new
                         {
@@ -284,7 +284,7 @@ namespace Module4HW3.Migrations
                             Budjet = 500000f,
                             ClientId = 5,
                             Name = "GreenShop",
-                            StartedDate = new DateTime(2023, 1, 9, 21, 55, 17, 576, DateTimeKind.Local).AddTicks(5138)
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6272)
                         });
                 });
 

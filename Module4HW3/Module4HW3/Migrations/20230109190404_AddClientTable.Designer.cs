@@ -12,8 +12,8 @@ using Module4HW3.DataModel;
 namespace Module4HW3.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230109184256_AddClient")]
-    partial class AddClient
+    [Migration("20230109190404_AddClientTable")]
+    partial class AddClientTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -61,6 +61,48 @@ namespace Module4HW3.Migrations
                     b.HasKey("ClientId");
 
                     b.ToTable("Client", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            ClientId = 1,
+                            Email = "vktrtmchshn@gmail.com",
+                            FirstName = "Viktoriia",
+                            LastName = "Tomchyshyn",
+                            PhoneNumber = "+380978945678"
+                        },
+                        new
+                        {
+                            ClientId = 2,
+                            Email = "vtmchshn@gmail.com",
+                            FirstName = "Volodymyr",
+                            LastName = "Tomchyshyn",
+                            PhoneNumber = "+380978945600"
+                        },
+                        new
+                        {
+                            ClientId = 3,
+                            Email = "anasttmchshn@gmail.com",
+                            FirstName = "Anastasiia",
+                            LastName = "Tomchyshyn",
+                            PhoneNumber = "+380958445600"
+                        },
+                        new
+                        {
+                            ClientId = 4,
+                            Email = "ihor.ant@gmail.com",
+                            FirstName = "Ihor",
+                            LastName = "Antoniuk",
+                            PhoneNumber = "+380937890567"
+                        },
+                        new
+                        {
+                            ClientId = 5,
+                            Email = "yuliakoval@gmail.com",
+                            FirstName = "Yulia",
+                            LastName = "Koval",
+                            PhoneNumber = "+380937890533"
+                        });
                 });
 
             modelBuilder.Entity("Module4HW3.DataModel.Employee", b =>
@@ -197,6 +239,56 @@ namespace Module4HW3.Migrations
                     b.HasIndex("ClientId");
 
                     b.ToTable("Project", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            ProjectId = 1,
+                            Budjet = 100000f,
+                            ClientId = 1,
+                            Name = "MedicalSystem",
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6232)
+                        },
+                        new
+                        {
+                            ProjectId = 2,
+                            Budjet = 500000f,
+                            ClientId = 2,
+                            Name = "CosmeticsShop",
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6260)
+                        },
+                        new
+                        {
+                            ProjectId = 3,
+                            Budjet = 1000000f,
+                            ClientId = 2,
+                            Name = "HomeShop",
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6263)
+                        },
+                        new
+                        {
+                            ProjectId = 4,
+                            Budjet = 200000f,
+                            ClientId = 3,
+                            Name = "SchoolDiary",
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6265)
+                        },
+                        new
+                        {
+                            ProjectId = 5,
+                            Budjet = 6000000f,
+                            ClientId = 4,
+                            Name = "HealthMentainer",
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6267)
+                        },
+                        new
+                        {
+                            ProjectId = 6,
+                            Budjet = 500000f,
+                            ClientId = 5,
+                            Name = "GreenShop",
+                            StartedDate = new DateTime(2023, 1, 9, 22, 4, 4, 408, DateTimeKind.Local).AddTicks(6272)
+                        });
                 });
 
             modelBuilder.Entity("Module4HW3.DataModel.Title", b =>

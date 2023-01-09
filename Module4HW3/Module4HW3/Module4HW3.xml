@@ -16,17 +16,5 @@
         <member name="M:Module4HW3.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
-        <member name="T:Module4HW3.Migrations.AddClient">
-            <inheritdoc />
-        </member>
-        <member name="M:Module4HW3.Migrations.AddClient.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:Module4HW3.Migrations.AddClient.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:Module4HW3.Migrations.AddClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
-        </member>
     </members>
 </doc>
