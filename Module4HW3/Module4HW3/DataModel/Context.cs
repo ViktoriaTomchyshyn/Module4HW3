@@ -12,6 +12,7 @@ namespace Module4HW3.DataModel
         public DbSet<Office> Office { get; set; }
         public DbSet<Project> Project { get; set; }
         public DbSet<Title> Title { get; set; }
+        public DbSet<Client> Client { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -32,6 +33,7 @@ namespace Module4HW3.DataModel
             modelBuilder.ApplyConfiguration(new EmployeeProjectConfiguration());
             modelBuilder.ApplyConfiguration(new ProjectConfiguration());
             modelBuilder.ApplyConfiguration(new OfficeConfiguration());
+            modelBuilder.ApplyConfiguration(new ClientConfiguration());
         }
     }
 }

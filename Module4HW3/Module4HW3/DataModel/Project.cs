@@ -11,5 +11,7 @@ namespace Module4HW3.DataModel
         public float Budjet { get; set; }
         public DateTime StartedDate { get; set; }
         public List<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
+        public int ClientId { get; set; }
+        public Client Client { get; set; }
     }
 }
