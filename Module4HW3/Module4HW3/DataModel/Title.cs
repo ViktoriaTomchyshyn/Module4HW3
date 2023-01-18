@@ -8,6 +8,6 @@ namespace Module4HW3.DataModel
         public int TitleId { get; set; }
         public string Name { get; set; }
 
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public virtual List<Employee> Employees { get; set; } = new List<Employee>();
     }
 }

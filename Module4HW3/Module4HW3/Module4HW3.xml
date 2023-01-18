@@ -16,5 +16,17 @@
         <member name="M:Module4HW3.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:Module4HW3.Migrations.AddClientTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Module4HW3.Migrations.AddClientTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Module4HW3.Migrations.AddClientTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Module4HW3.Migrations.AddClientTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
