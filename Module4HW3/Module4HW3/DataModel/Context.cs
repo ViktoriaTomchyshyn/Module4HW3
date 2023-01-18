@@ -23,7 +23,9 @@ namespace Module4HW3.DataModel
             var section = config.GetSection("SqlConnectionString");
             var connection = section.Get<string>();
 
-            optionsBuilder.UseSqlServer(connection);
+            optionsBuilder
+                .UseLazyLoadingProxies()
+                .UseSqlServer(connection);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

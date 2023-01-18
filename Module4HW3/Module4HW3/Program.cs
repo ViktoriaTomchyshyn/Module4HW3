@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Module4HW3.LinqToEntities;
 using Module4HW3.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,5 +28,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+RequestManager.Run();
 
 app.Run();
